@@ -40,6 +40,11 @@ If Redis auth enabled:
 If Redis auth is disabled:
 > helm upgrade -n <Sentry namespace> <Sentry Release> . --set postgresql.postgresqlPassword=<Postgresql Password>
 
+
+#### Clickhouse
+
+If you're not using standard as the PVC storageClass, please don't forget to change it in your values.yaml file.
+
 ## Roadmap
 
 - [X] Lint in Pull requests

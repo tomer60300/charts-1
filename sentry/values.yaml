@@ -240,7 +240,7 @@ clickhouse:
         enabled: true
         accessModes: 
         - "ReadWriteOnce"
-        storageClassName: "-"
+        storageClassName: "standard"
         storage: "30Gi"
 
 kafka:
