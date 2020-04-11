@@ -234,14 +234,14 @@ clickhouse:
   enabled: true
   clickhouse:
     imageVersion: "19.16"
-  persistentVolumeClaim:
-    enabled: true
-    dataPersistentVolume: 
+    persistentVolumeClaim:
       enabled: true
-      accessModes: 
-      - "ReadWriteOnce"
-      storageClassName: "-"
-      storage: "30Gi"
+      dataPersistentVolume: 
+        enabled: true
+        accessModes: 
+        - "ReadWriteOnce"
+        storageClassName: "-"
+        storage: "30Gi"
 
 kafka:
   enabled: true
