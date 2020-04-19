@@ -3,7 +3,7 @@ entries:
   sentry:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.356894924Z"
+    created: "2020-04-19T16:46:49.067000824Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -27,7 +27,7 @@ entries:
       repository: https://kubernetes-charts.storage.googleapis.com/
       version: 8.2.1
     description: A Helm chart for Kubernetes
-    digest: aa65156b762424b34cf06b7f77bd3dd65ce97012a011317897b0d332360be627
+    digest: 5d29fae04513530f898454cc1f87ebe8cea47b652cc2959d73d529c3c2043c8b
     name: sentry
     type: application
     urls:
@@ -35,7 +35,7 @@ entries:
     version: 0.12.3
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.337203629Z"
+    created: "2020-04-19T16:46:49.049282609Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -47,7 +47,7 @@ entries:
       version: 9.0.4
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - alias: rabbitmq
       condition: rabbitmq.enabled
@@ -67,7 +67,7 @@ entries:
     version: 0.12.2
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.318311534Z"
+    created: "2020-04-19T16:46:49.031686795Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -79,7 +79,7 @@ entries:
       version: 9.0.4
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - alias: rabbitmq
       condition: rabbitmq.enabled
@@ -99,7 +99,7 @@ entries:
     version: 0.12.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.298118139Z"
+    created: "2020-04-19T16:46:49.01394448Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -111,7 +111,7 @@ entries:
       version: 9.0.4
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - alias: rabbitmq
       condition: rabbitmq.enabled
@@ -131,7 +131,7 @@ entries:
     version: 0.12.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.280123843Z"
+    created: "2020-04-19T16:46:48.997074768Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -143,7 +143,7 @@ entries:
       version: 9.0.4
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - alias: rabbitmq
       condition: rabbitmq.enabled
@@ -163,7 +163,7 @@ entries:
     version: 0.11.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.261577548Z"
+    created: "2020-04-19T16:46:48.975497556Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -175,7 +175,7 @@ entries:
       version: 9.0.4
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - alias: rabbitmq
       condition: rabbitmq.enabled
@@ -195,7 +195,7 @@ entries:
     version: 0.11.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.243280452Z"
+    created: "2020-04-19T16:46:48.955403045Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -207,7 +207,7 @@ entries:
       version: 9.0.4
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - alias: rabbitmq
       condition: rabbitmq.enabled
@@ -227,7 +227,7 @@ entries:
     version: 0.10.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.37247932Z"
+    created: "2020-04-19T16:46:49.080837735Z"
     description: A Helm chart for Kubernetes
     digest: ccf7aabac486a68779d6564d90a875b45fefa4e4a9e8f86903355cf886b6a3aa
     name: sentry
@@ -237,7 +237,7 @@ entries:
     version: 0.9.4
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.37110422Z"
+    created: "2020-04-19T16:46:49.079491634Z"
     description: A Helm chart for Kubernetes
     digest: 07b380bbb341bb276b962de0b3721c9142a97e9fd084a394fc4d9f5db75bceea
     name: sentry
@@ -247,7 +247,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.369754021Z"
+    created: "2020-04-19T16:46:49.078251733Z"
     description: A Helm chart for Kubernetes
     digest: a5a52cb5362e604215b1811e053a1b790d8f2e6c0c553a55d52f0750a6f63936
     name: sentry
@@ -257,7 +257,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.368460221Z"
+    created: "2020-04-19T16:46:49.076593932Z"
     description: A Helm chart for Kubernetes
     digest: 81e65b09754dea768122d4d619801bab77714f9c77520afbc1658c7bf68b563d
     name: sentry
@@ -267,7 +267,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.366284022Z"
+    created: "2020-04-19T16:46:49.075056131Z"
     description: A Helm chart for Kubernetes
     digest: 225f13adbe6a002014b135afc02b65771fbb5bbdf6f09e3179a408beb316846c
     name: sentry
@@ -277,7 +277,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.364618422Z"
+    created: "2020-04-19T16:46:49.07386703Z"
     description: A Helm chart for Kubernetes
     digest: aef5a5cd789251ab629d25d18ac94a7801e80fb99dde54dc98111e7547326ce8
     name: sentry
@@ -287,7 +287,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.363207022Z"
+    created: "2020-04-19T16:46:49.072586628Z"
     description: A Helm chart for Kubernetes
     digest: 2ced97e545a92598f9b3bc487aa53b7b4cd6df8ba2b97ffbce5807a6e0a641d0
     name: sentry
@@ -297,7 +297,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.361981623Z"
+    created: "2020-04-19T16:46:49.071426428Z"
     description: A Helm chart for Kubernetes
     digest: bf3b118679f72f65fa20120dfd4c1718b56694250e80dac285189a0073a2fbcc
     name: sentry
@@ -307,7 +307,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.360716823Z"
+    created: "2020-04-19T16:46:49.070360727Z"
     description: A Helm chart for Kubernetes
     digest: b24391c885cb84817b024df7feb81feb6d97443a1e7cf26d6a7a04cdd3e1af0c
     name: sentry
@@ -317,7 +317,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.359422523Z"
+    created: "2020-04-19T16:46:49.069312626Z"
     description: A Helm chart for Kubernetes
     digest: 476900c519773349f70e8d0171f870ba5ad7983c62fcc72ae3b7799948500f33
     name: sentry
@@ -327,7 +327,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.358178124Z"
+    created: "2020-04-19T16:46:49.068204325Z"
     description: A Helm chart for Kubernetes
     digest: 0da209fcf559a3aa66ef7715cf6327da2337e3739fff89e06a25d2e6a1488765
     name: sentry
@@ -338,7 +338,7 @@ entries:
   sentry-db:
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.555854674Z"
+    created: "2020-04-19T16:46:49.252150178Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -350,7 +350,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -369,7 +369,7 @@ entries:
     version: 0.9.4
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.539176978Z"
+    created: "2020-04-19T16:46:49.235650464Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -381,7 +381,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -400,7 +400,7 @@ entries:
     version: 0.9.3
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.522265883Z"
+    created: "2020-04-19T16:46:49.220702451Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -412,7 +412,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -431,7 +431,7 @@ entries:
     version: 0.9.2
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.506267687Z"
+    created: "2020-04-19T16:46:49.204674438Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -443,7 +443,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -462,7 +462,7 @@ entries:
     version: 0.9.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.489750491Z"
+    created: "2020-04-19T16:46:49.187870124Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -474,7 +474,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -493,7 +493,7 @@ entries:
     version: 0.9.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.473164095Z"
+    created: "2020-04-19T16:46:49.172517411Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -505,7 +505,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -524,7 +524,7 @@ entries:
     version: 0.8.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.456440799Z"
+    created: "2020-04-19T16:46:49.156562098Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -536,7 +536,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -555,7 +555,7 @@ entries:
     version: 0.7.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.438536503Z"
+    created: "2020-04-19T16:46:49.141489386Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -567,7 +567,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -586,7 +586,7 @@ entries:
     version: 0.6.1
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.421556208Z"
+    created: "2020-04-19T16:46:49.127006774Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -598,7 +598,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -617,7 +617,7 @@ entries:
     version: 0.6.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.405202112Z"
+    created: "2020-04-19T16:46:49.111877761Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -629,7 +629,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -648,7 +648,7 @@ entries:
     version: 0.5.0
   - apiVersion: v2
     appVersion: 10.0.0
-    created: "2020-04-17T14:12:25.389032816Z"
+    created: "2020-04-19T16:46:49.095972648Z"
     dependencies:
     - condition: redis.enabled
       name: redis
@@ -660,7 +660,7 @@ entries:
       version: 7.1.1
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://tomer60300.github.io/charts-2/
+      repository: https://liwenhe1993.github.io/charts/
       version: 1.0.1
     - condition: rabbitmq-ha.enabled
       name: rabbitmq-ha
@@ -677,4 +677,4 @@ entries:
     urls:
     - https://sentry-kubernetes.github.io/charts/sentry-db-0.2.1.tgz
     version: 0.2.1
-generated: "2020-04-17T14:12:25.223424057Z"
+generated: "2020-04-19T16:46:48.936769035Z"
