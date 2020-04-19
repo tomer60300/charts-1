@@ -15,7 +15,7 @@ entries:
       version: 9.0.4
     - condition: clickhouse.enabled
       name: clickhouse
-      repository: https://liwenhe1993.github.io/charts/
+      repository: https://tomer60300.github.io/charts-2/
       version: 1.0.1
     - alias: rabbitmq
       condition: rabbitmq.enabled
