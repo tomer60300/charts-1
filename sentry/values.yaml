@@ -233,7 +233,8 @@ config:
 clickhouse:
   enabled: true
   persistentVolumeClaim:
-    storageClassName: "persistent-storage"
+    dataPersistentVolume:
+      storageClassName: "persistent-storage"
 
     
   
