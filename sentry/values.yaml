@@ -232,8 +232,14 @@ config:
 
 clickhouse:
   enabled: true
+  persistentVolumeClaim:
+    storageClassName: "persistent-storage"
+
+    
+  
   clickhouse:
     imageVersion: "19.16"
+  
 
 kafka:
   enabled: true
