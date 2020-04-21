@@ -1,0 +1,18 @@
+dependencies:
+- name: redis
+  repository: https://charts.bitnami.com/bitnami
+  version: 9.3.2
+- name: kafka
+  repository: https://charts.bitnami.com/bitnami
+  version: 9.0.4
+- name: clickhouse
+  repository: https://tomer60300.github.io/charts-2/
+  version: 1.0.1
+- name: rabbitmq-ha
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 1.38.2
+- name: postgresql
+  repository: https://kubernetes-charts.storage.googleapis.com/
+  version: 8.2.1
+digest: sha256:adce4ab2fb13bb6ecfcfa139188f3ba0041cb09de1beb5de3646d3b3796b9fd1
+generated: "2020-04-20T15:33:09.8352398+03:00"
