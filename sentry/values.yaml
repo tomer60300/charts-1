@@ -237,13 +237,12 @@ clickhouse:
       enabled: true
       dataPersistentVolume:
         storageClassName: "persistent-storage"
+        enabled: true
         storage: "3Gi"
       logsPersistentVolume:
         enabled: true
-        dataPersistentVolume:
-          storageClassName: "persistent-storage"
-          storage: "1Gi"
-       
+        storageClassName: "persistent-storage"
+        storage: "1Gi"
 
 
 
