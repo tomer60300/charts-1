@@ -242,6 +242,7 @@ clickhouse:
         enabled: true
         dataPersistentVolume:
           storageClassName: "persistent-storage"
+          storage: "1Gi"
        
 
 
