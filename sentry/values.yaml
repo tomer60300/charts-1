@@ -254,6 +254,10 @@ kafka:
   offsetsTopicReplicationFactor: 3
   transactionStateLogReplicationFactor: 3
   transactionStateLogMinIsr: 3
+  #8 to 2
+  persistence:
+    size: "2Gi"
+    
 
   service:
     port: 9092
@@ -265,6 +269,8 @@ redis:
   enabled: true
   nameOverride: sentry-redis
   usePassword: false
+  securityContext:
+    enabled: false
   # Only used when internal redis is disabled
   # host: redis
   # Just omit the password field if your redis cluster doesn't use password
@@ -273,6 +279,8 @@ redis:
   master:
     persistence:
       enabled: true
+    #8 to 2
+      size: "2Gi"
 
 postgresql:
   ## Required if the Postgresql component of this chart is disabled. (Existing Postgres)
@@ -292,6 +300,8 @@ postgresql:
     slaveReplicas: 2
     synchronousCommit: "on"
     numSynchronousReplicas: 1
+  persistence:
+    size: "2Gi"
 
 rabbitmq:
   ## If disabled, Redis will be used instead as the broker. 
@@ -302,6 +312,9 @@ rabbitmq:
   rabbitmqUsername: guest
   rabbitmqPassword: guest
   nameOverride: ""
+  persistence:
+    #8 to 2
+    size: "2Gi"
 
   podDisruptionBudget:
     minAvailable: 1
