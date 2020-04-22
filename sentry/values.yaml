@@ -229,18 +229,17 @@ config:
   sentryConfPy: |
     # No Python Extension Config Given
 
-
 clickhouse:
   enabled: true
-  persistentVolumeClaim:
-    dataPersistentVolume:
-      storageClassName: "persistent-storage"
-
-    
-  
   clickhouse:
     imageVersion: "19.16"
-  
+    persistentVolumeClaim:
+      enabled: true
+      dataPersistentVolume:
+        storageClassName: "persistent-storage"
+        storage: "3Gi"
+
+
 
 kafka:
   enabled: true
