@@ -238,7 +238,6 @@ clickhouse:
       dataPersistentVolume:
         storageClassName: "persistent-storage"
         storage: "3Gi"
-    persistentVolumeClaim:
       logsPersistentVolume:
         enabled: true
         dataPersistentVolume:
